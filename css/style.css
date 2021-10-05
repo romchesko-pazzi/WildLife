@@ -54,7 +54,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 .header__row-right ul {
     display: flex;
-    
 }
 
 .navigation a {
@@ -130,6 +129,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     background-color: #CCCCCC;
     height: 1368px;
 }
+
 .articles__title {
     padding-top: 120px;
     font-family: 'Open Sans';
@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     line-height: 72px;
     text-align: center;
     color: #333333;
-    }
+}
 
 .articles__subtitle {
     font-family: 'Open Sans';
@@ -148,27 +148,84 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     padding-top: 20px;
 }
 
-.articles__container {
-
-}
-
-.articles__row {
+.articles__cards {
     margin-top: 120px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
 }
 
-.articles__cards {
+.articles__cards h2 {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
 
+.articles__cards p {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 27px;
+    color: #F7F7F7;
 }
 
 .vectorl {
-    position: relative;
-    top: 50%;
+    margin-right: 30px;
+    align-self: center;
 }
 
 .vectorr {
+    margin-left: 30px;
+    align-self: center;
+}
+
+.text-on-image-1 {
     position: relative;
-    top: 50%;
+    margin: 0px 30px;
+}
+
+.text-on-image-1 h2 {
+    position: absolute;
+    bottom: 77px;
+    left: 124px;
+    
+}
+
+.text-on-image-2 {
+    position: relative;
+    margin: 0px 30px;
+}
+
+.text-on-image-2 h2 {
+    position: absolute;
+    bottom: 77px;
+    left: 109px;
+}
+
+.text-on-image-3 {
+    position: relative;
+    margin: 0px 30px;
+}
+
+.text-on-image-3 h2 {
+    position: absolute;
+    bottom: 77px;
+    left: 129px;
+}
+
+.text-on-image-1 p {
+    position: absolute;
+    bottom: 40px;
+    left: 57px;
+}
+
+.text-on-image-2 p {
+    position: absolute;
+    bottom: 40px;
+    left: 74px;
+}
+
+.text-on-image-3 p {
+    position: absolute;
+    bottom: 40px;
+    left: 88px;
 }
