@@ -184,13 +184,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     color: #F7F7F7;
 }
 
-.vectorl {
+.vector {
     margin-right: 30px;
-    align-self: center;
-}
-
-.vectorr {
-    margin-left: 30px;
     align-self: center;
 }
 
@@ -323,7 +318,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     align-items: center;
 }
 
-.footer__row-center p {
+.footer__row-center a {
     font-family: 'Open Sans';
     font-size: 23px;
     line-height: 60px;
@@ -343,12 +338,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     height: 359px;
 }
 
-.footer__row-center p:hover {
+.footer__row-center a:hover {
     color: #E39128;
     transition: 0.3s;
 }
 
-.footer__row-center p:active {
+.footer__row-center a:active {
     color: #8F5613;
     transition: 0.3s;
 }
