@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .articles {
-    background-color: #CCCCCC;
+    background-color: #CCC;
     height: 1368px;
 }
 
@@ -152,7 +152,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     font-size: 48px;
     line-height: 72px;
     text-align: center;
-    color: #333333;
+    color: #333;
 }
 
 .articles__subtitle {
@@ -160,7 +160,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    color: #666666;
+    color: #666;
     padding-top: 20px;
 }
 
@@ -245,17 +245,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     left: 88px;
 }
 
-.h2 {
-    margin-top: 239px;
-    margin-bottom: 59px;
+.notifications {
+    margin: 239px 0px 59px;
 }
 
-.h2 h2 {
+.notifications h2 {
     font-family: 'Open Sans';
     font-size: 27px;
     line-height: 40px;
     text-align: center;
-    color: #333333;
+    color: #333;
 }
 
 .form {
@@ -268,7 +267,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .input {
-    border: 1px #666666 solid;
+    border: 1px #666 solid;
     border-right: none;
     font-size: 23px;
     line-height: 27px;
@@ -342,4 +341,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     display: flex;
     justify-content: space-around;
     height: 359px;
+}
+
+.footer__row-center p:hover {
+    color: #E39128;
+    transition: 0.3s;
+}
+
+.footer__row-center p:active {
+    color: #8F5613;
+    transition: 0.3s;
 }
