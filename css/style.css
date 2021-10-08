@@ -296,15 +296,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 .footer__row-left {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 340px;
 }
 
-.footer__logo {
-    margin-right: 20px;
+.footer__logo-text {
+    display: flex;
+    align-items: center;
 }
 
-.footer__text {
+.footer__logo-text p {
+    margin-left: 20px;
     font-family: 'Roboto';
     font-size: 32px;
     line-height: 60px;
