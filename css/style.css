@@ -73,12 +73,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     margin-top: 6px;
     border: 2px solid #CD6326;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .button:hover {
     background-color: #E39128;
     border: 2px solid #E39128;
-    transition: 0.3s;
 }
 
 .button:active {
@@ -130,11 +130,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     background: #CD6326;
     border-radius: 5px;
     padding: 16px 42px;
+    transition: 0.2s;
 }
 
 .heading__button a:hover {
     background-color: #E39128;
-    transition: 0.2s;
 }
 
 .heading__button a:active {
@@ -278,11 +278,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     color: #F7F7F7;
     background: #CD6326;
     border-radius: 0px 5px 5px 0px;
+    transition: 0.2s;
 }
 
 .button__send:hover {
     background-color: #E39128;
-    transition: 0.2s;
 }
 
 .button__send:active {
@@ -327,6 +327,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     font-size: 23px;
     line-height: 60px;
     color: #F7F7F7;
+    transition: 0.3s;
 }
 
 .footer__row-right {
@@ -344,7 +345,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 .footer__row-center a:hover {
     color: #E39128;
-    transition: 0.3s;
 }
 
 .footer__row-center a:active {
